@@ -1,2 +1,2 @@
 # stefantesoi.com
-My personal website
+My personal website built with Gatsby and Netlify
