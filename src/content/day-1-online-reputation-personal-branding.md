@@ -1,0 +1,25 @@
+---
+templateKey: blog-post
+title: "Day 1 - Online Reputation, Personal Branding"
+date: "2017-10-23"
+coverImage: "/img/sunset-2640109_640.jpg"
+description: >-
+  Day 1 - Online Reputation, Personal Branding
+featuredpost: false
+featuredimage: /img/sunset-2640109_640.jpg
+tags:
+  - online reputation
+  - personal brand
+---
+
+I finally decided to take action so today is day one of my startup blitzkrieg.
+
+I didn't have any clue with which idea to start this morning so I just quickly went over my list of ideas (about 90+ ideas strong) and decided to go with something related to online reputation and personal branding. It should be noted that I already had an attempt at it a few years ago, the project was called Webhance.me . Once I settled on the idea I realized that I have no clue about what to do next and more importantly, what to build, so I started researching and documenting by reading articles and one particular long guide on personal branding. This took me about 3 hours. While reading, ideas started to pop up, I took notes, bookmarked some links, learned about some new tools and also added 5 more ideas for 5 potential startups to my ideas file. After reading I had 5 ideas about what the product/solution might be and after some thinking and elimination only two potential ones remained: an alert system for Q&A sites, forums, blogs, video sites and so on and an online availability checker and securer of usernames on social media. One of the rules of the game is to automate as much as possible so the second idea didn't seemed viable enough, it would take me more than 3 days to automate the process of registering and editing of profiles for a bunch of sites, so the next best solution would be to do them manually.
+
+So an alert tool it is then. Got on Quora, checked the source code, noticed some patterns and then fired up a Python script with Beautiful Soup. The script didn't worked, it couldn't read the DOM responsible for the question links and apparently Quora likes to do some obfuscation so then I tried with Mechanize and Beautiful Soup altogether. Mechanize emulates a browser. This too didn't worked, got an 403 error message, something about the robots.txt file. Checked on the internet, got over the error but it still wouldn't work. After some quick internet search I get to a question posted on Quora about how to scrape Quora. Well, it seems that Quora doesn't like to be scraped and this is against the ToS. Quora was an important piece in my value proposition, the idea was to notice the customer when a relevant question comes in so he can hop in and answer it and prove his mastery and expertise. There is also the fact that Talkwalker.com offers this type of service for free. There is also Google Alerts. I don't like to compete with free, it's hard to compete with free. And there is also the fact that this kind of solution is not necessarily only for personal branding, it can be used in other ways too so this kind of chips away at the whole market segment intended for personal branding. Alright, I will ditch this idea.
+
+Even though it would require some intense manual work at first, the idea of creating profiles by hand seems better now, I can at least compete against some expensive services out there and I also feel like I can provide some real value, this solution can save a lot of time for the customers. I'm thinking that I can "automate" the process by outsourcing the creation process to a cousin who doesn't have a job right now, to Mechanical Turk or even Fiverr. If my service gets really popular by some weird twist of fate than I can take steps to automate the whole process. This solution also spares me of the need to create a custom website, I can simply slap a WP blog and then a membership plugin to it and save a lot of time. I always have to remind myself to keep things as simple as possible and to not try to reinvent the wheel.
+
+I wish I could have done more but I felt a bit tired at the end of the day - those 3 hours of reading and brainstorming where quite intense, tried to focus 100% - and decided to pursue other activities. I'm at the beginning of my journey and I don't want to get burned out, yesterday, while reading from Deep Work by Cal Newport, I found out about the Attention Restoration theory. Apparently we have a limited time, about 4 hours top in the case of "experts" and only one hour in the case of "newbies", in which we can do intense cognitive work aka deep work; we are not machines so we need to restore our attention from time to time by taking a break and watching nature because this is what the theory recommends: "people can concentrate better after spending time in nature, or even looking at scenes of nature."
+
+The plan for tomorrow would be to create the website, do the copywriting, landing page, calls to action and all of that stuff and to manually create profiles for myself on a bunch of websites to see how much time it takes (and in order to estimate a proper price for the service).
